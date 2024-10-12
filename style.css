@@ -1,0 +1,197 @@
+*{
+  margin:0;
+  padding:0;
+  font-family: 'Poppins', sans-serif;
+  text-decoration: none;
+}
+
+.header{
+  background-image: linear-gradient(rgba(2,6,20,0.5),rgba(2,6,20,0.5)),url(images/bg_image.jpg);
+  width:100%;
+  height:100vh;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+nav{
+  display: flex;
+  padding-right:6%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav a img{
+  width: 150px;
+  height: 150px;
+  margin-top: 10px;
+  margin-left: 25px;
+}
+
+.nav-links{
+  flex:1;
+  text-align: right;
+
+}
+
+.nav-links ul li{
+  list-style: none;
+  display: inline-block;
+  padding: 8px 30px;
+  position: relative;
+}
+.nav-links ul li a{
+  color: #fff;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.nav-links ul li::after{
+  content:'';
+  width: 0%;
+  height: 2px;
+  background: #f44336;
+  display: block;
+  margin:auto;
+  transition: 0.5s;
+}
+
+.nav-links ul li:hover::after{
+  width:100%;
+}
+
+.midle h3{
+  text-align: center;
+  margin-top:8%;
+  color: white;
+  font-size: 30px;
+
+}
+
+.midle h1{
+  text-align: center;
+  color:#0ee2e9;
+  font-size: 50px;
+  padding-left:5%;
+
+}
+
+.midle h1 span{
+  color:#f3d01c;
+}
+
+.head h1{
+  text-align: center;
+  color: blue;
+  padding-top: 50px;
+  font-size: 30px;
+  padding-bottom: 30px;
+}
+
+/*---provides--*/
+
+.hello{
+  display: flex;
+
+}
+.classes h2{
+  background-color:#00539CFF;
+  color: yellow;
+  font-style: italic;
+  width: 380px;
+  height: 350px;
+  text-align: center;
+  padding-top: 30px;
+
+}
+.classes h2 p{
+  color:white;
+  font-size: 13px;
+  font-family: sans-serif;
+  padding-top: 20px;
+}
+.classes h2 img{
+  width: 200px;
+  height:200px;
+
+}
+
+
+.library h2{
+  background-color:#EEA47FFF;
+  color: yellow;
+  font-style: italic;
+  width: 380px;
+  height: 350px;
+  text-align: center;
+  padding-top: 30px;
+
+}
+.library h2 p{
+  color:white;
+  font-size: 13px;
+  font-family: sans-serif;
+  padding-top: 20px;
+}
+.library h2 img{
+  width: 200px;
+  height:200px;
+
+}
+
+.sports h2{
+  background-color:#00539CFF;
+  color: yellow;
+  font-style: italic;
+  width: 380px;
+  height: 350px;
+  text-align: center;
+  padding-top: 30px;
+
+}
+.sports h2 p{
+  color:white;
+  font-size: 13px;
+  font-family: sans-serif;
+  padding-top: 20px;
+}
+.sports h2 img{
+  width: 200px;
+  height:200px;
+
+}
+
+.faculty h2{
+  background-color:#EEA47FFF;
+  color: yellow;
+  font-style: italic;
+  width: 380px;
+  height: 350px;
+  text-align: center;
+  padding-top: 30px;
+
+}
+.faculty h2 p{
+  color:white;
+  font-size: 13px;
+  font-family: sans-serif;
+  padding-top: 20px;
+}
+.faculty h2 img{
+  width: 200px;
+  height:200px;
+
+}
+
+/*---footer----*/
+.footer h4{
+  width:100%;
+  height: 300px;
+  background-color: #9CC3D5FF;
+  text-align:center;
+  padding-top: 20px;
+  font-size: 25px;
+}
+
+.footer form{
+font-size: 13px;
+}

@@ -1,0 +1,148 @@
+*{
+  margin:0;
+  padding:0;
+  font-family: 'Poppins', sans-serif;
+  text-decoration: none;
+}
+
+.header{
+  background-image:url(images/sprts.jpg);
+  width:100%;
+  height:100vh;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+nav{
+  display: flex;
+  padding-right:6%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav a img{
+  width: 150px;
+  height: 150px;
+  margin-top: 10px;
+  margin-left: 25px;
+}
+
+.nav-links{
+  flex:1;
+  text-align: right;
+
+}
+
+.nav-links ul li{
+  list-style: none;
+  display: inline-block;
+  padding: 8px 30px;
+  position: relative;
+}
+.nav-links ul li a{
+  color:#fff;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.nav-links ul li::after{
+  content:'';
+  width: 0%;
+  height: 2px;
+  background: red;
+  display: block;
+  margin:auto;
+  transition: 0.5s;
+}
+
+.nav-links ul li:hover::after{
+  width:100%;
+}
+
+/*--body--*/
+.physiacl_edu h1{
+  text-align: center;
+  text-decoration: underline;
+  color:#f5c7f7;
+  font-size: 35px;
+  margin-top: 70px;
+}
+
+.physiacl_edu p{
+  font-style: italic;
+  margin-left: 220px;
+  margin-right: 220px;
+  color: #fff;
+  font-size: 20px;
+
+}
+
+.physiacl_edu img{
+  width:1000px;
+  height:600px;
+}
+
+.library{
+  width: 100%;
+  height: 100%;
+  background-color:#FBEAEB;
+
+}
+
+.library h1{
+  text-align: center;
+  text-decoration: underline;
+  font-size: 35px;
+}
+
+.library p{
+  margin-left:50px;
+  margin-right:50px;
+  font-size: 17px;
+
+}
+
+.library li{
+  margin-left:100px;
+  margin-right:100px;
+  font-size:16px;
+}
+
+.library h3{
+margin-left:50px;
+}
+
+/*--campus_life--*/
+
+.campus_life{
+  background-color: #FBEAEB;
+  text-align: center;
+  color:#f5c7f7;
+  font-size: 35px;
+  margin-top: 70px;
+}
+.campus_life h1{
+  width: 100%;
+  height: 100%;
+  background-color:#FBEAEB;
+  color:#000;
+  font-size: 35px;
+}
+.campus_life img{
+  width:400px;
+  height:250px;
+}
+
+/*---footer----*/
+.footer h4{
+  width:100%;
+  height: 300px;
+  background-color: #9CC3D5FF;
+  text-align:center;
+  padding-top: 20px;
+  font-size: 25px;
+}
+
+.footer form{
+font-size: 13px;
+}
